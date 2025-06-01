@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Clínica IOB</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="src/img/img1.jpg" alt="Logotipo do Instituto Odontologico Bradbury" />
+      <div class="logo" tabindex="0">Instituto Odontológico Bradbury</div>
+    </div>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <section class="hero" id="hero" role="banner" aria-label="Seção principal de boas-vindas">
+            <h1>Bem-vindo <spam>IOB</spam></h1>
+            <p>Excelência em odontológia com cuidado, conforto e tecnologia de ponta.</p>
+            <button class="btn-primary" id="contatoForm1" onclick="scrollToContact()">Agende sua consulta</button>
+          </section>
+      </main>
+
+      <section class="services" id="services" aria-label="Lista de serviços oferecidos">
+      <h2>Nosso Serviços</h2>
+        <div class="service-list">
+            <article class="service-item" tabindex="0" aria-describedby="svc1-desc">
+
+              <h3>Dentística</h3>
+              <p id="svc1-desc">Transformando sorrisos, restaurando a saúde.</p>
+            </article>
+            <article class="service-item" tabindex="0" aria-describedby="svc2-desc">
+
+              <h3>Edontontia</h3>
+              <p id="svc2-desc">Sua saúde bucal em boas mãos,eficiente, confortável e definitiva.</p>
+            </article>
+            <article class="service-item" tabindex="0" aria-describedby="svc3-desc">
+
+              <h3>Cirurgias e Prótese</h3>
+              <p id="svc3-desc">Sorrisos alinhados, vidas transformadas.</p>
+            </article>
+            <article class="service-item" tabindex="0" aria-describedby="svc4-desc">
+            
+              <h3>Odontopediatria e Harmonização Orafacial</h3>
+              <p id="svc4-desc">Construindo sorrisos saudáveis desde a infância e realçando sua beleza natural na vida adulta. Explore a excelência em Odontopediatria e Harmonização Orofacial conosco.</p>
+            </article>
+        </div>
+      </section>  
+      
+      <h2>Formulário de Contato</h2>
+  <form id="contatoForm">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" required>
+
+    <label for="servico">Serviço:</label>
+    <select id="servico" name="servico" required>
+      <option value="">--Selecione--</option>
+      <option value="manutenção">Manutenção</option>
+      <option value="desenvolvimento">Desenvolvimento</option>
+      <option value="consultoria">Consultoria</option>
+    </select>
+
+    <label for="descricao">Descrição:</label>
+    <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+      
+      <section class="about" id="about" aria-label="Sobre IOB">
+        <h2>Sobre o IOB </h2>
+        <p>O Instituto Odontológico Bradbury é referência em atendimento odontológico, prezando pela excelência, conforto e tecnologia para garantir sorrisos saudáveis e felizes.</p>
+        <p>Nossa equipe é formada por profissionais qualificados, dedicados a cuidar da sua saúde bucal com atenção e carinho.</p> 
+      </section> 
+      
+<footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Sobre Nós</h3>
+                <p>Instituto Odontológico Bradbury. Dentista e consultório odontológico.</p>
+                <p>Cirurgia | Dentística | Endodontia | HOF | Prótese<</p>
+                <p>CNPJ: </p>
+            </div>
+            
+            <div class="footer-column" id="contact">
+                <h3>Contato</h3>
+                <p><i class="fas fa-phone"></i>(17)99152-9962</p>
+                <p><i class="fas fa-envelope"></i> </p>
+                <p><i class="fas fa-map-marker-alt"></i> </p>
+                
+                <div class="social-links">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/instituto.iob/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/17991529962" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <!--<a href="#"><i class="fab fa-youtube"></i></a>-->
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Horário de Funcionamento</h3>
+                <p><strong>Segunda a Sexta:</strong> 8h às 18h</p>
+                <p><strong>Sábado:</strong> 8h às 12h</p>
+                <p><strong>Domingo:</strong> Fechado</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy;  2025 IOB Instituto Odontologico Bradbury - Todos os direitos reservados.
+              <a href="https://github.com/Donda-dev" target="_blank" class="dev-credit" aria-label="Desenvolvedor do site">Donda-dev</a>
+            </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
